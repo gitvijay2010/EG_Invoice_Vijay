@@ -1,0 +1,66 @@
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.w-48{
+    width: 48%;
+}
+.w-25{
+    width: 25%;
+}
+
+/* Text Color Class */
+
+.text-white{
+    color: var(--colorWhite);
+}
+
+/* Text align class */
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+.currentLink a{
+    text-decoration: none;
+    color: var(--linkColor);
+}
+.current-link a{
+    text-decoration: none;
+    color: currentColor;
+}
+label.error{
+    display: flex;
+    font-size: 12px;
+    color: var(--colorRed);
+    padding-top: 6px;
+}
+.imgResponce{
+    display: block;
+    max-width: 100%;
+    padding: 0px 20px;
+}
+svg.w-5.h-5 {
+    max-width: 100%;
+    width: 24px;
+}
+.card-footer.p-8pt>nav.flex.items-center.justify-between>.flex.justify-between.flex-1.sm\:hidden{
+    display: none;
+}
+.card-footer.p-8pt>nav.flex.items-center.justify-between>.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.card-footer.p-8pt>nav.flex.items-center.justify-between>.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between>div{
+    text-align: center;
+}

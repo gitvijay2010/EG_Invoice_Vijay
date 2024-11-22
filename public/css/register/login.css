@@ -1,0 +1,62 @@
+div#loginPage {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #69c8ff;
+}
+div#loginPageContainer{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;    
+    justify-content: center;
+    align-items: center;
+}
+section.loginPageSection {
+    display: block;
+    max-width: 50%;
+    width: 100%;
+    background-color: #ffff;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+.loginBannerImage {
+    display: flex;
+    max-width: 100%;
+    width: 100%;    
+    height: 100%;
+}
+div#loginPageLayout {
+    display: flex;
+    padding: 14px;
+}
+.loginFromLayout {
+    display: block;
+    max-width: 40%;
+    width: 100%;
+}
+#loginFormInputValues input{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 44px;
+    border: 1px solid var(--colorGray);
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+button.loginBtn {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    background-color: var(--green400);
+    color:  var(--colorWhite);
+    font-weight: 600;
+    border-radius: 4px;
+}
